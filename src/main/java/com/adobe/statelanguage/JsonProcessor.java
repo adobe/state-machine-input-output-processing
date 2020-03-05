@@ -10,14 +10,14 @@ OF ANY KIND, either express or implied. See the License for the specific languag
 governing permissions and limitations under the License.
 */
 
-package com.adobe.stateslanguage;
+package com.adobe.statelanguage;
 
-import static com.adobe.stateslanguage.util.JsonProcessorUtil.addStateResultToStateInput;
-import static com.adobe.stateslanguage.util.JsonProcessorUtil.convertJsonPathStringToJsonPointer;
-import static com.adobe.stateslanguage.util.JsonProcessorUtil.generateExtractedValue;
+import static com.adobe.statelanguage.util.JsonProcessorUtil.addStateResultToStateInput;
+import static com.adobe.statelanguage.util.JsonProcessorUtil.convertJsonPathStringToJsonPointer;
+import static com.adobe.statelanguage.util.JsonProcessorUtil.generateExtractedValue;
 
-import com.adobe.stateslanguage.exception.GenericException;
-import com.adobe.stateslanguage.exception.InvalidPathException;
+import com.adobe.statelanguage.exception.GenericException;
+import com.adobe.statelanguage.exception.InvalidPathException;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ArrayNode;

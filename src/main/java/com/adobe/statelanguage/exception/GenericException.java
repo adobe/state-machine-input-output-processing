@@ -10,14 +10,18 @@ OF ANY KIND, either express or implied. See the License for the specific languag
 governing permissions and limitations under the License.
 */
 
-package com.adobe.stateslanguage.exception;
+package com.adobe.statelanguage.exception;
 
-public class InvalidPathException extends Exception {
-  public InvalidPathException(final String message) {
+public class GenericException extends Exception {
+  public GenericException(final String message) {
     super(message);
   }
 
-  public InvalidPathException(String message, Throwable cause) {
+  public GenericException(String message, Throwable cause) {
     super(message, cause);
+  }
+
+  public GenericException(Throwable cause) {
+    super(cause);
   }
 }

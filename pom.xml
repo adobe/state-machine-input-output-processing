@@ -4,9 +4,27 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.adobe.stateslanguage</groupId>
-    <artifactId>stateslanguage</artifactId>
+    <groupId>com.adobe.statelanguage</groupId>
+    <artifactId>statelanguage</artifactId>
     <version>1.0</version>
+    <packaging>jar</packaging>
+
+    <name>State Machine Input Output Processing</name>
+    <description>Java implementation of Amazon State Language JSON Input and Output Processing</description>
+    <url>https://github.com/adobe/state-machine-input-output-processing</url>
+
+    <licenses>
+        <license>
+            <name>The Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
+
+    <scm>
+        <connection>scm:git:https://github.com/adobe/state-machine-input-output-processing.git</connection>
+        <developerConnection>scm:git:https://github.com/adobe/state-machine-input-output-processing.git</developerConnection>
+        <url>http://github.com/adobe/state-machine-input-output-processing/tree/master</url>
+    </scm>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
@@ -42,5 +60,14 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+
+    <developers>
+        <developer>
+            <name>Shreyasi Agrawal</name>
+            <email>agrawal.shreyasi@gmail.com</email>
+            <organization>Adobe</organization>
+            <organizationUrl>https://www.adobe.com</organizationUrl>
+        </developer>
+    </developers>
 
 </project>
