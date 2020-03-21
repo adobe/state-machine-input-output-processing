@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.adobe.statelanguage</groupId>
-    <artifactId>statelanguage</artifactId>
+    <artifactId>input-output-processing</artifactId>
     <version>1.0</version>
     <packaging>jar</packaging>
 
